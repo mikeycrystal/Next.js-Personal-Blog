@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = mikeycrystal
+	email = michaelcrystal87@gmail.com
+	signingkey = mc
+[gpg]
+	program = /opt/homebrew/bin/gpg
+
